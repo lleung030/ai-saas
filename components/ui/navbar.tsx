@@ -1,5 +1,6 @@
 import { Button } from '@/components/ui/button'
 import { Menu } from 'lucide-react'
+import { UserButton } from '@clerk/nextjs'
 
 const NavBar = () => {
   return (
@@ -8,6 +9,9 @@ const NavBar = () => {
         className='md:hidden'>
             <Menu />
         </Button>
+        <div className='flex w-full justify-end'>
+        <UserButton afterSignOutUrl='/'/>
+        </div>
     </div>
   )
 };
