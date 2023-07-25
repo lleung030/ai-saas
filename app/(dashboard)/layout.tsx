@@ -1,3 +1,5 @@
+import NavBar from "@/components/ui/navbar";
+
 const DashboardLayout = ({
     children
 }: {
