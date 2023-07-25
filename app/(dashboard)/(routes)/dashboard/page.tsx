@@ -3,6 +3,6 @@ import {Button} from '@/components/ui/button'
 
 export default function DashboardPage() {
   return (
-    <Button variant='destructive' size='lg'>Button</Button>
+    <p>Dashboard Page (Protected)</p>
   )
 }
